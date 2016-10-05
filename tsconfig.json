@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"sourceMap": false,
+		"pretty": true,
+		"declaration": true,
+		"lib": ["es5", "dom", "es2015.core", "es2015.promise"],
+		"types": ["vue-typescript-import-dts"]
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"atom": {
+		"rewriteTsconfig": false
+	},
+	"compileOnSave": false
+}

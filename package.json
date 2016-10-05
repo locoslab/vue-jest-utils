@@ -1,0 +1,68 @@
+{
+  "name": "vue-jest-utils",
+  "version": "0.1.0",
+  "description": "Utilities for using Jest with Vue.js",
+  "author": "Locoslab GmbH",
+  "homepage": "https://github.com/locoslab/vue-jest-utils",
+  "bugs": "https://github.com/locoslab/vue-jest-utils/issues",
+  "repository": "locoslab/vue-jest-utils",
+  "license": "MIT",
+  "main": "./lib/vue-jest-utils.js",
+  "typings": "./lib/vue-jest-utils.d.ts",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "vue",
+    "jest",
+    "typescript",
+    "testing"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint": "tslint src/**/*.ts test/**/*.ts",
+    "prepublish": "tslint src/**/*.ts && jest --coverage --no-cache && tsc -p tsconfigDist.json"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/vue-typescript-jest/preprocessor.js",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "vue"
+    ],
+    "testRegex": "/test/test/.*\\.(ts|js)$",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/.*\\.(ts|js)$",
+      "/.*\\.vue"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "peerDependencies": {
+    "jest-cli": "^16.0.0",
+    "vue": "^2.0.1"
+  },
+  "dependencies": {
+    "html2jade": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^15.1.32",
+    "babel-core": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-runtime": "^6.0.0",
+    "jest-cli": "^16.0.0",
+    "pug": "^2.0.0-beta6",
+    "tslint": "^3.15.1",
+    "tslint-config-locoslab": "^0.1.0",
+    "typescript": "^2.0.3",
+    "vue": "^2.0.1",
+    "vue-template-compiler": "^2.0.1",
+    "vue-typescript-import-dts": "^1.0.1",
+    "vue-typescript-jest": "^0.1.1"
+  }
+}
