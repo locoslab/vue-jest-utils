@@ -1,6 +1,6 @@
 {
   "name": "vue-jest-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Utilities for using Jest with Vue.js",
   "author": "Locoslab GmbH",
   "homepage": "https://github.com/locoslab/vue-jest-utils",
