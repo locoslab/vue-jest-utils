@@ -1,4 +1,3 @@
-/// <reference path='../node_modules/@types/jest/index.d.ts' />
 import Html2jade = require('html2jade')
 import Vue = require('vue')
 
