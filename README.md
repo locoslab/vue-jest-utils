@@ -10,6 +10,11 @@ Install: `npm install --save-dev vue-jest-utils`
 
 Note: Vue.js 2.0 and Jest must be installed as well.
 
+To use Jest with Vue.js single-file components (`*.vue`) or TypeScript sources, follow the guide on [vue-typescript-jest](https://github.com/locoslab/vue-typescript-jest).
+
+For a complete example of a TypeScript/Tsify/Vue.js/Vueify/Pug setup supporting Hot Module Replacement and unit/snapshot testing with Jest, cf.  [vue-typescript-component-example](https://github.com/locoslab/vue-typescript-component-example).
+
+
 ### Examples
 
 #### JavaScript Test Example
