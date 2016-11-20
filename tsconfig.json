@@ -4,14 +4,15 @@
 		"module": "commonjs",
 		"noImplicitAny": true,
 		"strictNullChecks": true,
+		"noUnusedLocals": true,
 		"sourceMap": false,
 		"pretty": true,
 		"declaration": true,
-		"lib": ["es5", "dom", "es2015.core", "es2015.promise"],
-		"types": ["vue-typescript-import-dts"]
+		"lib": ["es5", "dom", "es2015.core", "es2015.promise"]
 	},
 	"exclude": [
-		"node_modules"
+		"node_modules",
+		"lib"
 	],
 	"atom": {
 		"rewriteTsconfig": false

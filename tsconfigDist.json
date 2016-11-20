@@ -1,20 +1,11 @@
 {
+	"extends": "./tsconfig",
 	"compilerOptions": {
-		"target": "es5",
-		"module": "commonjs",
-		"noImplicitAny": true,
-		"strictNullChecks": true,
-		"sourceMap": false,
-		"pretty": true,
-		"declaration": true,
-		"lib": ["es5", "dom", "es2015.core", "es2015.promise"],
 		"outDir": "lib"
 	},
 	"exclude": [
-		"node_modules", "test"
-	],
-	"atom": {
-		"rewriteTsconfig": false
-	},
-	"compileOnSave": false
+		"node_modules",
+		"lib",
+		"test"
+	]
 }
