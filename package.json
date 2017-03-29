@@ -59,7 +59,7 @@
     "babel-runtime": "^6.0.0",
     "jest-cli": "^17.0.0",
     "pug": "^2.0.0-beta6",
-    "tslint": "^4.0.1",
+    "tslint": "^5.0.0",
     "tslint-config-locoslab": "^1.0.0",
     "typescript": "^2.1.1",
     "vue": "^2.0.7",
