@@ -33,5 +33,5 @@ export function expectToMatchSnapshot(vm: Vue, element?: HTMLElement) {
 
 /** click the nth button */
 export function clickNthButton(el: HTMLElement, n: number) {
-	(<HTMLButtonElement>el.querySelector('button:nth-of-type(' + n + ')')).click()
+	(el.querySelector('button:nth-of-type(' + n + ')') as HTMLButtonElement).click()
 }
